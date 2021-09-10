@@ -21,6 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-        <span>ほに</span>
+        <span>にゃーす</span>
     </body>
 </html>
