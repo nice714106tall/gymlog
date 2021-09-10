@@ -13,7 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'pageController@welcome');
+use App\Http\Controllers\pageController;
+
+Route::get('/', [pageController::class, 'home']);
+
+Route::get('/news', [pageController::class, 'news']);
+
+Route::get('/terms', [pageController::class, 'terms']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
