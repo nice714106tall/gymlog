@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class pageController extends Controller
 {
-    public function welcome(){
+    public function home(){
         return view('home');
     }
 
@@ -16,7 +16,6 @@ class pageController extends Controller
             'newses' => DB::table('news')->paginate(3),
         ]);
     }
-
 
     public function terms(){
         return view('terms');
