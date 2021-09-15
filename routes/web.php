@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\pageController;
 
-Route::get('/', [pageController::class, 'home']);
+Route::get('/', [pageController::class, 'home'])->middleware('auth');
 
 Route::get('/news', [pageController::class, 'news']);
 
