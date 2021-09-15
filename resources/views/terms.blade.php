@@ -21,6 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <span>かやく</span>
+        <span>利用規約</span>
+        旧PCで作ったのがあるはず。探して貼り付ける。
     </body>
 </html>

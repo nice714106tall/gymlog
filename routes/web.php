@@ -29,6 +29,10 @@ Route::get('/profile', function () {
     return view('myprofile');
 })->middleware(['auth'])->name('myprofile');
 
+Route::get('/profile/edit', function () {
+    return view('myprofile');
+})->middleware(['auth'])->name('myprofile');
+
 Route::get('/profile/{userid}', function () {
     return view('profile');
 })->middleware(['auth'])->name('profile');
