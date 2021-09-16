@@ -1,0 +1,23 @@
+{
+    "Email" : "メールアドレス",
+    "Password" : "パスワード",
+    "Remember me" : "ログイン情報を記憶する",
+    "Forgot your password?" : "パスワードを忘れましたか？",
+    "Log in" : "ログイン",
+    "Log Out" : "ログアウト",
+    "Dashboard" : "ダッシュボード",
+    
+
+    "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one." :
+    "下記のフォームに登録しているメールアドレスを入力して下さい。",
+    "Email Password Reset Link" : "パスワード再設定用リンクを送信する",
+
+    "Register user account" : "登録がお済みでない方はこちら(会員登録)",
+    "Confirm Password" : "パスワード（確認）※上と同じものを再度入力してください",
+
+    "Already registered?" : "登録済みの方はこちら(ログイン)",
+    "Register" : "登録",
+
+    "Name" : "ログインID",
+    "Displayname" : "ニックネーム"
+}
